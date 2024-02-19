@@ -1,10 +1,11 @@
 package top.fumiama.copymanga.views
 
 import android.content.Context
+import androidx.appcompat.widget.AppCompatToggleButton;
 import android.util.AttributeSet
 import android.widget.ToggleButton
 
-class ChapterToggleButton: ToggleButton {
+class ChapterToggleButton: AppCompatToggleButton {
     constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int): super(context, attrs, defStyleAttr)
     constructor(context: Context?, attrs: AttributeSet?): super(context, attrs)
     constructor(context: Context?): super(context, null)
